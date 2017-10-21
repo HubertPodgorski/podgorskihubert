@@ -1,0 +1,23 @@
+@import '../helpers/colors';
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $bg-color;
+    color: $white;
+}
+
+.page-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-placeholder {
+    text-align: center;
+}
